@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button Redirect</title>
+</head>
+<body>
+  <button id="loginButton">Login</button>
+
+  <script>
+    const button = document.getElementById("loginButton");
+
+    button.addEventListener("click", function() {
+      console.log("Button click works");
+      window.location.href = "adminHome.html"; // Adjust the path as needed
+      console.log("page opened");
+    });
+  </script>
+</body>
+</html>
