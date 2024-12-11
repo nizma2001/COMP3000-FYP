@@ -35,7 +35,7 @@ form.addEventListener('submit', async (event) => {
 
             if (adminResponse.ok) {
                 // If the admin route is accessible, redirect to the admin home page
-                window.location.href = '/html/adminHome.html';  // Adjust the path if necessary
+                window.location.href = '/html/adminHome.html';  
             } else {
                 // If the user is not an admin or can't access the route
                 alert('Access Denied or You are not an admin.');

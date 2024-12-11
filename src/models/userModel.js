@@ -18,7 +18,7 @@ const User = sequelize.define('User', {
         autoIncrement: true
     },
     username: {
-        type: DataTypes.STRING, // Matches VARCHAR in PostgreSQL
+        type: DataTypes.STRING, 
         allowNull: false,
         unique: true,
     },
@@ -27,7 +27,7 @@ const User = sequelize.define('User', {
         allowNull: false,
     },
     role: {
-        type: DataTypes.STRING, // Matches `VARCHAR(50)` in PostgreSQL
+        type: DataTypes.STRING, 
         defaultValue: 'user',
     },
 },
