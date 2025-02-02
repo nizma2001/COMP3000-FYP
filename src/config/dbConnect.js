@@ -20,7 +20,7 @@ const dbConnect =  async () => {
         return sequelize;
 
     } catch (err) {
-        console.log("oops");
+        console.log("oops"); //debug step
         console.log(err);
         process.exit(1);
     }
